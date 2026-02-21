@@ -1,0 +1,15 @@
+# Eclipse files
+.metadata/
+.settings/
+*.class
+bin/
+
+# Logs
+*.log
+
+# Maven
+target/
+
+# OS files
+.DS_Store
+Thumbs.db
