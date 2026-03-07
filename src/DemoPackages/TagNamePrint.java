@@ -15,10 +15,10 @@ public class TagNamePrint {
         driver.manage().window().maximize();
         driver.get("https://www.facebook.com/");
         
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"email\"]"));
+        WebElement element = driver.findElement(By.xpath("//*[@id=\"_R_1h6kqsqppb6amH1_\"]"));
         System.out.println(element.getTagName());
         
-        WebElement element1 = driver.findElement(By.xpath("//*[@id=\"pass\"]"));
+        WebElement element1 = driver.findElement(By.xpath("//*[@id=\"_R_1hmkqsqppb6amH1_\"]"));
         System.out.println(element1.getTagName());
         
         driver.close();
